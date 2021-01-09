@@ -68,12 +68,12 @@ export default function Home() {
                   <span className="block text-sm font-semibold uppercase tracking-wide text-gray-500 sm:text-base lg:text-sm xl:text-base">
                     Coming soon
                   </span>
-                  <span className="mt-1 block text-4xl tracking-tight font-extrabold sm:text-5xl xl:text-6xl">
+                  <span className="mt-1 block text-4xl tracking-tight font-extrabold sm:text-5xl xl:text-5xl">
                     <span className="inline text-gray-900">
-                      This qurbani season your
+                      This qurbani season your bill is on
                     </span>
                     <span className="inline text-red-600">
-                      &nbsp;bill is on us!
+                      &nbsp;MaveshiFarms!
                     </span>
                   </span>
                 </h1>
@@ -101,10 +101,9 @@ export default function Home() {
                     </button>
                   </form>
                   <p className="mt-3 text-sm text-gray-500">
-                    We care about your animals just like you do. Do you want
-                    to&nbsp;
+                    We care about your animals just like you do. Wann know{" "}
                     <a href="#" className="font-medium text-gray-900">
-                      how?
+                      more?
                     </a>
                   </p>
                 </div>
