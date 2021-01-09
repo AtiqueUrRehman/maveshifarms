@@ -69,11 +69,12 @@ export default function Home() {
                     Coming soon
                   </span>
                   <span className="mt-1 block text-4xl tracking-tight font-extrabold sm:text-5xl xl:text-5xl">
+                    <span className="inline text-gray-900">Let</span>
+                    &nbsp;
+                    <span className="inline text-red-600">MaveshiFarms</span>
+                    &nbsp;
                     <span className="inline text-gray-900">
-                      This qurbani season your bill is on
-                    </span>
-                    <span className="inline text-red-600">
-                      &nbsp;MaveshiFarms!
+                      take care of your animals this Eid!
                     </span>
                   </span>
                 </h1>
