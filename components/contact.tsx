@@ -64,7 +64,9 @@ export default function Contact() {
       </form>
       <div>
         {error && (
-          <p className="mt-3 sm:flex text-red-600">Email is required</p>
+          <p className="mt-3 sm:flex text-red-600">
+            There was an error sending your email.
+          </p>
         )}
         {successMessage && (
           <p className="mt-3 sm:flex text-green-600">
