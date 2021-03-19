@@ -1,3 +1,5 @@
+import Contact from "../components/contact";
+
 export default function Home() {
   return (
     <div>
@@ -83,24 +85,7 @@ export default function Home() {
                   <p className="text-base font-medium text-gray-900">
                     Sign up to get notified when it’s ready.
                   </p>
-                  <form action="#" method="POST" className="mt-3 sm:flex">
-                    <label htmlFor="email" className="sr-only">
-                      Email
-                    </label>
-                    <input
-                      type="text"
-                      name="email"
-                      id="email"
-                      className="block w-full py-3 px-3 text-base rounded-md placeholder-gray-500 shadow-sm focus:ring-red-500 focus:border-red-500 sm:flex-1 border border-gray-200"
-                      placeholder="Enter your email"
-                    />
-                    <button
-                      type="submit"
-                      className="mt-3 w-full px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:mt-0 sm:ml-3 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto"
-                    >
-                      Notify me
-                    </button>
-                  </form>
+                  <Contact />
                   <p className="mt-3 text-sm text-gray-500">
                     We care about your animals just like you do. Wann know{" "}
                     <a href="#" className="font-medium text-gray-900">
@@ -159,10 +144,7 @@ export default function Home() {
                     <span className="sr-only">
                       Watch our video to learn more
                     </span>
-                    <img
-                      className="w-full"
-                      src="https://images.unsplash.com/photo-1567868041010-3ad7954d14c3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2100&q=80"
-                    />
+                    <img className="w-full" src="hero.png" alt="" />
                   </button>
                 </div>
               </div>
