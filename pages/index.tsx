@@ -87,10 +87,8 @@ export default function Home() {
                   </p>
                   <Contact />
                   <p className="mt-3 text-sm text-gray-500">
-                    We care about your animals just like you do. Wann know{" "}
-                    <a href="#" className="font-medium text-gray-900">
-                      more?
-                    </a>
+                    We care about your animals just like you do. Wanna know more? Sign up!
+                    
                   </p>
                 </div>
               </div>
