@@ -87,8 +87,7 @@ export default function Home() {
                   </p>
                   <Contact />
                   <p className="mt-3 text-sm text-gray-500">
-                    We care about your animals just like you do. Wanna know more? Sign up!
-                    
+                    We care about your animals just like you do. Wanna know more? <span className="font-medium text-gray-900"> Sign Up!</span>
                   </p>
                 </div>
               </div>
