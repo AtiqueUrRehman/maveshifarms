@@ -35,7 +35,7 @@ const sendMail = ({ email }: { email: string }) => {
     from: "zainzafar90@gmail.com",
     to: "zainzafar90@gmail.com",
     replyTo: "zainzafar90@gmail.com",
-    subject: `New Subscriber ${from}`,
+    subject: `MaveshiFarms: New Subscriber ${from}`,
     text: `${email} wants to be notified of anything new happening in on the development of maveshi farms.`,
   };
 
