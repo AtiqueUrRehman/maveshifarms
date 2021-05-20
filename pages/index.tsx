@@ -6,7 +6,6 @@ export default function Home() {
     <div>
       <div className="relative bg-white overflow-hidden">
         <Hero />
-        <Catalogue />
       </div>
     </div>
   );
@@ -22,3 +21,7 @@ export default function Home() {
 // Color: White
 // Price: 55k
 // Add ons: Delivery, food, shelter
+
+
+
+// <Catalogue />
