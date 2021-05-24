@@ -1,4 +1,3 @@
-import Catalogue from "../components/catalogus";
 import Hero from "../components/hero";
 
 export default function Home() {
@@ -10,18 +9,3 @@ export default function Home() {
     </div>
   );
 }
-
-// Information that we need to should
-
-// Category: Goat/Bull/Sheep
-// Breed: Rajanpuri/Dhanni
-// Weight (live): 53kg
-// Weight (live) expected on Eid: 60kg
-// Height: 35''
-// Color: White
-// Price: 55k
-// Add ons: Delivery, food, shelter
-
-
-
-// <Catalogue />
