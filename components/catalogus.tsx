@@ -5,7 +5,7 @@ const bulls = [
     imageUrl: "/assets/img/catalogue/bull/01.jpg",
     color: "White",
     addOns: "Delivery, Butcher, Shelter",
-    price: 225000,
+    price: 275000,
     currentWeight: 320,
     expectedWeight: 340,
   },
@@ -15,7 +15,7 @@ const bulls = [
     imageUrl: "/assets/img/catalogue/bull/02.jpg",
     color: "White",
     addOns: "Delivery, Butcher, Shelter",
-    price: 205000,
+    price: 235000,
     currentWeight: 300,
     expectedWeight: 320,
   },
@@ -25,7 +25,7 @@ const bulls = [
     imageUrl: "/assets/img/catalogue/bull/03.jpg",
     color: "Black",
     addOns: "Delivery, Shelter",
-    price: 135000,
+    price: 140000,
     currentWeight: 240,
     expectedWeight: 260,
   },
@@ -35,7 +35,7 @@ const bulls = [
     imageUrl: "/assets/img/catalogue/bull/04.jpg",
     color: "White and Black",
     addOns: "Delivery, Shelter",
-    price: 145000,
+    price: 150000,
     currentWeight: 370,
     expectedWeight: 390,
   },
@@ -85,7 +85,7 @@ const goats = [
   {
     breed: "Rajanpuri",
     category: "Goat",
-    imageUrl: "/assets/img/catalogue/bull/101.jpg",
+    imageUrl: "/assets/img/catalogue/goats/101.jpg",
     color: "White",
     addOns: "Delivery, Butcher, Shelter",
     price: 55000,
@@ -95,9 +95,9 @@ const goats = [
   {
     breed: "Rajanpuri",
     category: "Goat",
-    imageUrl: "/assets/img/catalogue/bull/102.jpg",
+    imageUrl: "/assets/img/catalogue/goats/102.jpg",
     color: "White",
-    addOns: "Delivery, Butcher, Shelter",
+    addOns: "Delivery, Shelter",
     price: 55000,
     currentWeight: 49,
     expectedWeight: 54,
@@ -105,12 +105,42 @@ const goats = [
   {
     breed: "Desi",
     category: "Goat",
-    imageUrl: "/assets/img/catalogue/bull/103.jpg",
+    imageUrl: "/assets/img/catalogue/goats/103.jpg",
     color: "Black and white",
     addOns: "Delivery, Shelter",
     price: 35000,
     currentWeight: 32,
     expectedWeight: 35,
+  },
+  {
+    breed: "Makhi Cheena",
+    category: "Goat",
+    imageUrl: "/assets/img/catalogue/goats/104.jpg",
+    color: "White cheena",
+    addOns: "Delivery, Shelter",
+    price: 76000,
+    currentWeight: 65,
+    expectedWeight: 69,
+  },
+  {
+    breed: "Makhi Cheena",
+    category: "Goat",
+    imageUrl: "/assets/img/catalogue/goats/105.jpg",
+    color: "Brown cheena",
+    addOns: "Delivery, Shelter",
+    price: 76000,
+    currentWeight: 66,
+    expectedWeight: 69,
+  },
+  {
+    breed: "Makhi Cheena",
+    category: "Goat",
+    imageUrl: "/assets/img/catalogue/goats/106.jpg",
+    color: "Brown Cheena",
+    addOns: "Delivery, Shelter",
+    price: 73000,
+    currentWeight: 63,
+    expectedWeight: 67,
   },
 ];
 
@@ -124,7 +154,7 @@ export default function Catalogue() {
               Catalogue
             </h2>
             <p className="text-xl text-gray-500">
-              All our animals are raised on organic food from our own farms and are vaccinated to make sure they healthy.
+              All our animals are raised on organic food from our own farms and are vaccinated to make sure they healthy and the meat is not harmfull.
             </p>
           </div>
           <div className="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">

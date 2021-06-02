@@ -1,5 +1,3 @@
-import Contact from "./contact";
-
 export default function Hero() {
   return (
     <>
@@ -82,13 +80,12 @@ export default function Hero() {
               </h1>
 
               <div className="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
-                <p className="text-base font-medium text-gray-900">
-                  Share your email to get notified
+                <p className="text-xl font-medium text-gray-900">
+                  Book your animal now to get free shelter till Eid, free food till eid and free delivery! 
                 </p>
-                <Contact />
-                <p className="mt-3 text-sm text-gray-500">
-                  We care about your animals just like you do. Wanna know more?{" "}
-                  <span className="font-medium text-gray-900"> Email Us!</span>
+                &nbsp;
+                <p className="text-lg font-medium text-gray-900">
+                  Get on a call or send us a message on <span className="text-green-500"> 0334-5042149 </span> 
                 </p>
               </div>
             </div>
