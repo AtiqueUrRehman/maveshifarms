@@ -65,16 +65,20 @@ export default function Hero() {
           <div className="lg:grid lg:grid-cols-12 lg:gap-8">
             <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
               <h1>
-                <span className="block text-sm font-semibold uppercase tracking-wide text-gray-500 sm:text-base lg:text-sm xl:text-base">
-                  BOOKING IS OPEN
+                <span className="mt-1 block text-3xl tracking-tight font-extrabold sm:text-4xl xl:text-4xl inline text-gray-900">
+                  We know buying and keeping aniamls for Qurbani is hard,
                 </span>
+              </h1>
+              &nbsp;
+              <h1>
                 <span className="mt-1 block text-4xl tracking-tight font-extrabold sm:text-5xl xl:text-5xl">
-                  <span className="inline text-gray-900">Let</span>
-                  &nbsp;
-                  <span className="inline text-red-600">MaveshiFarms</span>
-                  &nbsp;
+                  <span className="inline text-gray-900">This Eid, let
+                  <span className="inline text-red-600"> MaveshiFarms </span>
+                  </span>
+
+                  
                   <span className="inline text-gray-900">
-                    take care of your animals this Eid!
+                    take care of that!
                   </span>
                 </span>
               </h1>
@@ -85,7 +89,18 @@ export default function Hero() {
                 </p>
                 &nbsp;
                 <p className="text-lg font-medium text-gray-900">
-                  Get on a call or send us a message <span className="text-green-500"> 0334-5042149 </span> 
+
+                  <span className="text-green-500">  </span> 
+                  <div className="grid grid-cols-2 place-items-start h-25">
+                    <div>WhatsApp</div>
+                    <div>0334-5042149</div>
+                    <div>Email</div>
+                    <div>maveshifarms@gmail.com</div>
+                    <div>Instagram</div>
+                    <div>instagram.com/maveshifarms</div>
+                    <div>Facebook</div>
+                    <div>facebook.com/maveshifarms</div>
+                  </div>                  
                 </p>
               </div>
             </div>
