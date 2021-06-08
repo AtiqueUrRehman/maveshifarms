@@ -142,6 +142,16 @@ const goats = [
     currentWeight: 63,
     expectedWeight: 67,
   },
+  {
+    breed: "Talagang",
+    category: "Ram (Chakki Dumba)",
+    imageUrl: "/assets/img/catalogue/goats/107.jpg",
+    color: "White",
+    addOns: "Delivery, Shelter",
+    price: 62000,
+    currentWeight: 65,
+    expectedWeight: 68,
+  }
 ];
 
 export default function Catalogue() {
@@ -154,7 +164,8 @@ export default function Catalogue() {
               Catalogue
             </h2>
             <p className="text-xl text-gray-500">
-              All our animals are raised on organic food from our own farms and are vaccinated to make sure they healthy and the meat is not harmfull.
+              All our animals are vaccinated, dewormed and are raised on organic food from our own farms to sure they are healthy and the meat is not harmfull.
+              We also take complete responsibility to make sure that all our animals fulfill the requirements for Qurbani.
             </p>
           </div>
           <div className="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
@@ -198,6 +209,7 @@ export default function Catalogue() {
                           </dt>
                           <dd className="text-base font-bold tracking-tight text-gray-900">
                             {bull.currentWeight} Kg
+                           
                           </dd>
                         </div>
                         <div className="border-t-2 border-gray-100 pt-2">
@@ -213,7 +225,8 @@ export default function Catalogue() {
                             Price
                           </dt>
                           <dd className="text-base font-bold tracking-tight text-red-700">
-                            {bull.price} PKR
+                            {/* {bull.price} PKR */}
+                            On call
                           </dd>
                         </div>
                         <div className="border-t-2 border-gray-100 pt-2">
@@ -288,7 +301,8 @@ export default function Catalogue() {
                             Price
                           </dt>
                           <dd className="text-base font-bold tracking-tight text-red-700">
-                            {goat.price} PKR
+                            {/* {goat.price} PKR */}
+                            On call
                           </dd>
                         </div>
                         <div className="border-t-2 border-gray-100 pt-2">

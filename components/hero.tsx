@@ -85,7 +85,8 @@ export default function Hero() {
 
               <div className="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
                 <p className="text-xl font-medium text-gray-900">
-                  Book your animal now to get free shelter till Eid, free food till Eid and free delivery to your doorstep! 
+                  Book your animal now to get <span className="font-extrabold text-red-400">free shelter</span> till Eid, 
+                  <span className="font-extrabold text-red-400"> free food</span> till Eid and <span className="font-extrabold text-red-400">free delivery</span> to your doorstep! 
                 </p>
                 &nbsp;
                 <p className="text-lg font-medium text-gray-900">
