@@ -164,8 +164,10 @@ export default function Catalogue() {
               Catalogue
             </h2>
             <p className="text-xl text-gray-500">
-              All our animals are vaccinated, dewormed and are raised on organic food from our own farms to sure they are healthy and the meat is not harmfull.
-              We also take complete responsibility to make sure that all our animals fulfill the requirements for Qurbani.
+              All our animals are <span className="text-green-600 text font-extrabold"> vaccinated</span>,
+               <span className="text-green-600 text font-extrabold"> dewormed </span> and are raised on <span className="text-green-600 text font-extrabold"> organic food </span> from our own farms to sure they are healthy and the meat is not harmfull.
+               You would'nt get that gaurantee from mandi would you ?
+              And not only that, we also take complete responsibility to make sure that all our animals fulfill the requirements for Qurbani.
             </p>
           </div>
           <div className="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
@@ -226,7 +228,7 @@ export default function Catalogue() {
                           </dt>
                           <dd className="text-base font-bold tracking-tight text-red-700">
                             {/* {bull.price} PKR */}
-                            On call
+                            On call/WhatsApp
                           </dd>
                         </div>
                         <div className="border-t-2 border-gray-100 pt-2">
@@ -302,7 +304,7 @@ export default function Catalogue() {
                           </dt>
                           <dd className="text-base font-bold tracking-tight text-red-700">
                             {/* {goat.price} PKR */}
-                            On call
+                            On call/WhatsApp
                           </dd>
                         </div>
                         <div className="border-t-2 border-gray-100 pt-2">
