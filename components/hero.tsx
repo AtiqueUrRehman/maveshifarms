@@ -1,5 +1,3 @@
-import Contact from "./contact";
-
 export default function Hero() {
   return (
     <>
@@ -67,28 +65,43 @@ export default function Hero() {
           <div className="lg:grid lg:grid-cols-12 lg:gap-8">
             <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
               <h1>
-                <span className="block text-sm font-semibold uppercase tracking-wide text-gray-500 sm:text-base lg:text-sm xl:text-base">
-                  BOOKING IS OPEN
+                <span className="mt-1 block text-3xl tracking-tight font-extrabold sm:text-4xl xl:text-4xl inline text-gray-900">
+                  We know buying and keeping animals for Qurbani is hard,
                 </span>
+              </h1>
+              &nbsp;
+              <h1>
                 <span className="mt-1 block text-4xl tracking-tight font-extrabold sm:text-5xl xl:text-5xl">
-                  <span className="inline text-gray-900">Let</span>
-                  &nbsp;
-                  <span className="inline text-red-600">MaveshiFarms</span>
-                  &nbsp;
+                  <span className="inline text-gray-900">This Eid, let
+                  <span className="inline text-red-600"> MaveshiFarms </span>
+                  </span>
+
+                  
                   <span className="inline text-gray-900">
-                    take care of your animals this Eid!
+                    take care of that!
                   </span>
                 </span>
               </h1>
 
               <div className="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
-                <p className="text-base font-medium text-gray-900">
-                  Share your email to get notified
+                <p className="text-xl font-medium text-gray-900">
+                  Book your animal now to get <span className="font-extrabold text-red-500">free shelter</span> till Eid, 
+                  <span className="font-extrabold text-red-500"> free food</span> till Eid and <span className="font-extrabold text-red-500">free delivery</span>
+                   to your doorstep! 
                 </p>
-                <Contact />
-                <p className="mt-3 text-sm text-gray-500">
-                  We care about your animals just like you do. Wanna know more?{" "}
-                  <span className="font-medium text-gray-900"> Email Us!</span>
+                <p className="text-xl font-medium text-gray-900">Worried about <span className="font-extrabold text-red-500">butcher? </span> we can take care of that too!</p>
+                &nbsp;
+                <p className="text-lg font-medium text-gray-900"> 
+                  <div className="grid grid-cols-3 place-items-start">
+                    <div className="col-start-1 col-span-1">WhatsApp</div>
+                    <a href="https://api.whatsapp.com/send?phone=+923130794980">0313-0794980</a>
+                    <div className="col-start-1 col-span-1">Email</div>
+                    <a href="mailto:maveshifarms@gmail.com">maveshifarms@gmail.com</a>
+                    <div className="col-start-1 col-span-1">Instagram</div>
+                    <a href="https://instagram.com/maveshifarms " target="_blank">instagram.com/maveshifarms</a>
+                    <div className="col-start-1 col-span-1">Facebook</div>
+                    <a href="https://facebook.com/maveshifarms" target="_blank">facebook.com/maveshifarms</a>
+                  </div>                  
                 </p>
               </div>
             </div>
