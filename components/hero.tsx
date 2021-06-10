@@ -72,7 +72,7 @@ export default function Hero() {
               &nbsp;
               <h1>
                 <span className="mt-1 block text-4xl tracking-tight font-extrabold sm:text-5xl xl:text-5xl">
-                  <span className="inline text-gray-900">This Eid, let
+                  <span className="inline text-gray-900">this Eid, let
                   <span className="inline text-red-600"> MaveshiFarms </span>
                   </span>
 
@@ -86,7 +86,7 @@ export default function Hero() {
               <div className="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
                 <p className="text-xl font-medium text-gray-900">
                   Book your animal now to get <span className="font-extrabold text-red-500">free shelter</span> till Eid, 
-                  <span className="font-extrabold text-red-500"> free food</span> till Eid and <span className="font-extrabold text-red-500">free delivery</span>
+                  <span className="font-extrabold text-red-500"> free food</span> till Eid and <span className="font-extrabold text-red-500">free delivery </span>
                    to your doorstep! 
                 </p>
                 <p className="text-xl font-medium text-gray-900">Worried about <span className="font-extrabold text-red-500">butcher? </span> we can take care of that too!</p>
@@ -94,7 +94,7 @@ export default function Hero() {
                 <p className="text-lg font-medium text-gray-900"> 
                   <div className="grid grid-cols-3 place-items-start">
                     <div className="col-start-1 col-span-1">WhatsApp</div>
-                    <a href="https://api.whatsapp.com/send?phone=+923130794980">0313-0794980</a>
+                    <a href="https://api.whatsapp.com/send?phone=+923130794980&text=hi">0313-0794980</a>
                     <div className="col-start-1 col-span-1">Email</div>
                     <a href="mailto:maveshifarms@gmail.com">maveshifarms@gmail.com</a>
                     <div className="col-start-1 col-span-1">Instagram</div>
