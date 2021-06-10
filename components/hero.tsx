@@ -94,11 +94,11 @@ export default function Hero() {
                 <p className="text-lg font-medium text-gray-900"> 
                   <div className="grid grid-cols-3 place-items-start">
                     <div className="col-start-1 col-span-1">WhatsApp</div>
-                    <a href="tel:+923130794980">0313-0794980</a>
+                    <a href="https://api.whatsapp.com/send?phone=+923130794980">0313-0794980</a>
                     <div className="col-start-1 col-span-1">Email</div>
                     <a href="mailto:maveshifarms@gmail.com">maveshifarms@gmail.com</a>
                     <div className="col-start-1 col-span-1">Instagram</div>
-                    <a href="https://instagram.com/maveshifarms" target="_blank">instagram.com/maveshifarms</a>
+                    <a href="https://instagram.com/maveshifarms " target="_blank">instagram.com/maveshifarms</a>
                     <div className="col-start-1 col-span-1">Facebook</div>
                     <a href="https://facebook.com/maveshifarms" target="_blank">facebook.com/maveshifarms</a>
                   </div>                  
