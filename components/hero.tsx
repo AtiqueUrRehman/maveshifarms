@@ -94,8 +94,7 @@ export default function Hero() {
                 <p className="text-lg font-medium text-gray-900"> 
                   <div className="grid grid-cols-3 place-items-start">
                     <div className="col-start-1 col-span-1">WhatsApp</div>
-                    <a href="https://api.whatsapp.com/send?phone=+923130794980" >0313-0794980</a>
-                    <a href="https://api.whatsapp.com/send?phone=+923130794980" className="underline" >(tap to message)</a>
+                    <a className="underline" href="https://api.whatsapp.com/send?phone=+923130794980" >0313-0794980</a>
                     <div className="col-start-1 col-span-1">Email</div>
                     <a href="mailto:maveshifarms@gmail.com"  className="underline">maveshifarms@gmail.com</a>
                     <div className="col-start-1 col-span-1">Instagram</div>

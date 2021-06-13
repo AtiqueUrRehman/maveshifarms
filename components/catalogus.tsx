@@ -1,5 +1,6 @@
 const bulls = [
   {
+    code: "B01",
     breed: "Dhanni",
     category: "Bull",
     imageUrl: "/assets/img/catalogue/bull/01.jpg",
@@ -10,6 +11,7 @@ const bulls = [
     expectedWeight: 340,
   },
   {
+    code: "B02",
     breed: "Dhanni",
     category: "Bull",
     imageUrl: "/assets/img/catalogue/bull/02.jpg",
@@ -20,6 +22,7 @@ const bulls = [
     expectedWeight: 320,
   },
   {
+    code: "B03",
     breed: "Desi",
     category: "Bull",
     imageUrl: "/assets/img/catalogue/bull/03.jpg",
@@ -30,6 +33,7 @@ const bulls = [
     expectedWeight: 260,
   },
   {
+    code: "B04",
     breed: "Desi cross",
     category: "Bull",
     imageUrl: "/assets/img/catalogue/bull/04.jpg",
@@ -40,6 +44,7 @@ const bulls = [
     expectedWeight: 390,
   },
   {
+    code: "B05",
     breed: "Sahiwal",
     category: "Bull",
     imageUrl: "/assets/img/catalogue/bull/05.jpg",
@@ -50,6 +55,7 @@ const bulls = [
     expectedWeight: 230,
   },
   {
+    code: "B06",
     breed: "Sahiwal",
     category: "Bull",
     imageUrl: "/assets/img/catalogue/bull/06.jpg",
@@ -60,6 +66,7 @@ const bulls = [
     expectedWeight: 230,
   },
   {
+    code: "B07",
     breed: "Sahiwal",
     category: "Bull",
     imageUrl: "/assets/img/catalogue/bull/07.jpg",
@@ -70,6 +77,7 @@ const bulls = [
     expectedWeight: 230,
   },
   {
+    code: "B08",
     breed: "Sahiwal",
     category: "Bull",
     imageUrl: "/assets/img/catalogue/bull/08.jpg",
@@ -83,6 +91,7 @@ const bulls = [
 
 const goats = [
   {
+    code: "G01",
     breed: "Rajanpuri",
     category: "Goat",
     imageUrl: "/assets/img/catalogue/goats/101.jpg",
@@ -93,6 +102,7 @@ const goats = [
     expectedWeight: 64,
   },
   {
+    code: "G02",
     breed: "Rajanpuri",
     category: "Goat",
     imageUrl: "/assets/img/catalogue/goats/102.jpg",
@@ -103,6 +113,7 @@ const goats = [
     expectedWeight: 60,
   },
   {
+    code: "G03",
     breed: "Desi",
     category: "Goat",
     imageUrl: "/assets/img/catalogue/goats/103.jpg",
@@ -113,6 +124,7 @@ const goats = [
     expectedWeight: 35,
   },
   {
+    code: "G04",
     breed: "Makhi Cheena",
     category: "Goat",
     imageUrl: "/assets/img/catalogue/goats/104.jpg",
@@ -123,6 +135,7 @@ const goats = [
     expectedWeight: 67,
   },
   {
+    code: "G05",
     breed: "Makhi Cheena",
     category: "Goat",
     imageUrl: "/assets/img/catalogue/goats/105.jpg",
@@ -133,6 +146,7 @@ const goats = [
     expectedWeight: 73,
   },
   {
+    code: "G06",
     breed: "Makhi Cheena",
     category: "Goat",
     imageUrl: "/assets/img/catalogue/goats/106.jpg",
@@ -143,6 +157,7 @@ const goats = [
     expectedWeight: 67,
   },
   {
+    code: "G07",
     breed: "Talagang",
     category: "Ram (Chakki Dumba)",
     imageUrl: "/assets/img/catalogue/goats/107.jpg",
@@ -228,7 +243,9 @@ export default function Catalogue() {
                           </dt>
                           <dd className="text-base font-bold tracking-tight text-red-700">
                             {/* {bull.price} PKR */}
-                            On call/WhatsApp
+                            <a className="hover:underline" target="_blank" href={`https://api.whatsapp.com/send?phone=+923130794980&text=Hi May I know the price of ${bull.category} : ${bull.code}`}>
+                              Tap to inquire
+                            </a>
                           </dd>
                         </div>
                         <div className="border-t-2 border-gray-100 pt-2">
@@ -304,7 +321,9 @@ export default function Catalogue() {
                           </dt>
                           <dd className="text-base font-bold tracking-tight text-red-700">
                             {/* {goat.price} PKR */}
-                            On call/WhatsApp
+                            <a className="hover:underline" target="_blank" href={`https://api.whatsapp.com/send?phone=+923130794980&text=Hi May I know the price of ${goat.category} : ${goat.code}`}>
+                              Tap to inquire
+                            </a>
                           </dd>
                         </div>
                         <div className="border-t-2 border-gray-100 pt-2">
