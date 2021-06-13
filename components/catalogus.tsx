@@ -243,7 +243,7 @@ export default function Catalogue() {
                           </dt>
                           <dd className="text-base font-bold tracking-tight text-red-700">
                             {/* {bull.price} PKR */}
-                            <a className="hover:underline" target="_blank" href={`https://api.whatsapp.com/send?phone=+923130794980&text=Hi May I know the price of ${bull.category} : ${bull.code}`}>
+                            <a className="hover:underline" target="_blank" href={`https://api.whatsapp.com/send?phone=+923130794980&text=Hi, may I know the price of ${bull.category} : ${bull.code}`}>
                               Tap to inquire
                             </a>
                           </dd>
@@ -321,7 +321,7 @@ export default function Catalogue() {
                           </dt>
                           <dd className="text-base font-bold tracking-tight text-red-700">
                             {/* {goat.price} PKR */}
-                            <a className="hover:underline" target="_blank" href={`https://api.whatsapp.com/send?phone=+923130794980&text=Hi May I know the price of ${goat.category} : ${goat.code}`}>
+                            <a className="hover:underline" target="_blank" href={`https://api.whatsapp.com/send?phone=+923130794980&text=Hi, may I know the price of ${goat.category} : ${goat.code}`}>
                               Tap to inquire
                             </a>
                           </dd>
