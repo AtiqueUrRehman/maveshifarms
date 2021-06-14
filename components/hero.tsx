@@ -101,6 +101,8 @@ export default function Hero() {
                     <a href="https://instagram.com/maveshifarms" className="underline" target="_blank">instagram.com/maveshifarms</a>
                     <div className="col-start-1 col-span-1">Facebook</div>
                     <a href="https://facebook.com/maveshifarms" className="underline" target="_blank">facebook.com/maveshifarms</a>
+                    <div className="col-start-1 col-span-1">Location</div>
+                    <a href="https://g.page/maveshifarms" className="underline" target="_blank">g.page/maveshifarms</a>
                   </div>                  
                 </p>
               </div>
