@@ -1,6 +1,7 @@
 const bulls = [
   {
     code: "B01",
+    availability: "In stock",
     breed: "Dhanni",
     category: "Bull",
     imageUrl: "/assets/img/catalogue/bull/01.jpg",
@@ -12,6 +13,7 @@ const bulls = [
   },
   {
     code: "B02",
+    availability: "In stock",
     breed: "Dhanni",
     category: "Bull",
     imageUrl: "/assets/img/catalogue/bull/02.jpg",
@@ -23,6 +25,7 @@ const bulls = [
   },
   {
     code: "B03",
+    availability: "In stock",
     breed: "Desi",
     category: "Bull",
     imageUrl: "/assets/img/catalogue/bull/03.jpg",
@@ -34,6 +37,7 @@ const bulls = [
   },
   {
     code: "B04",
+    availability: "In stock",
     breed: "Desi cross",
     category: "Bull",
     imageUrl: "/assets/img/catalogue/bull/04.jpg",
@@ -45,6 +49,7 @@ const bulls = [
   },
   {
     code: "B05",
+    availability: "In stock",
     breed: "Sahiwal",
     category: "Bull",
     imageUrl: "/assets/img/catalogue/bull/05.jpg",
@@ -56,6 +61,7 @@ const bulls = [
   },
   {
     code: "B06",
+    availability: "In stock",
     breed: "Sahiwal",
     category: "Bull",
     imageUrl: "/assets/img/catalogue/bull/06.jpg",
@@ -67,6 +73,7 @@ const bulls = [
   },
   {
     code: "B07",
+    availability: "In stock",
     breed: "Sahiwal",
     category: "Bull",
     imageUrl: "/assets/img/catalogue/bull/07.jpg",
@@ -78,6 +85,7 @@ const bulls = [
   },
   {
     code: "B08",
+    availability: "In stock",
     breed: "Sahiwal",
     category: "Bull",
     imageUrl: "/assets/img/catalogue/bull/08.jpg",
@@ -92,6 +100,7 @@ const bulls = [
 const goats = [
   {
     code: "G01",
+    availability: "In stock",
     breed: "Rajanpuri",
     category: "Goat",
     imageUrl: "/assets/img/catalogue/goats/101.jpg",
@@ -103,6 +112,7 @@ const goats = [
   },
   {
     code: "G02",
+    availability: "In stock",
     breed: "Rajanpuri",
     category: "Goat",
     imageUrl: "/assets/img/catalogue/goats/102.jpg",
@@ -114,6 +124,7 @@ const goats = [
   },
   {
     code: "G03",
+    availability: "In stock",
     breed: "Desi",
     category: "Goat",
     imageUrl: "/assets/img/catalogue/goats/103.jpg",
@@ -125,6 +136,7 @@ const goats = [
   },
   {
     code: "G04",
+    availability: "In stock",
     breed: "Makhi Cheena",
     category: "Goat",
     imageUrl: "/assets/img/catalogue/goats/104.jpg",
@@ -136,6 +148,7 @@ const goats = [
   },
   {
     code: "G05",
+    availability: "In stock",
     breed: "Makhi Cheena",
     category: "Goat",
     imageUrl: "/assets/img/catalogue/goats/105.jpg",
@@ -147,6 +160,7 @@ const goats = [
   },
   {
     code: "G06",
+    availability: "In stock",
     breed: "Makhi Cheena",
     category: "Goat",
     imageUrl: "/assets/img/catalogue/goats/106.jpg",
@@ -158,6 +172,7 @@ const goats = [
   },
   {
     code: "G07",
+    availability: "Sold",
     breed: "Talagang",
     category: "Ram (Chakki Dumba)",
     imageUrl: "/assets/img/catalogue/goats/107.jpg",
@@ -204,7 +219,24 @@ export default function Catalogue() {
                   <div className="space-y-1">
                     <div className="mt-0">
                       <dl className="grid grid-cols-2 gap-x-4 gap-y-4">
+                      <div className="pt-2">
+                          <dt className="text-sm font-medium text-gray-500">
+                            Availability
+                          </dt>
+                          <dd className="text-base font-bold tracking-tight text-gray-900">
+                            {bull.availability}
+                           
+                          </dd>
+                        </div>
                         <div className="pt-2">
+                          <dt className="text-sm font-medium text-gray-500">
+                            Code
+                          </dt>
+                          <dd className="text-base font-bold tracking-tight text-gray-900">
+                            {bull.code} 
+                          </dd>
+                        </div>
+                        <div className="border-t-2 border-gray-100 pt-2">
                           <dt className="text-sm font-medium text-gray-500">
                             Category
                           </dt>
@@ -212,7 +244,7 @@ export default function Catalogue() {
                             {bull.category}
                           </dd>
                         </div>
-                        <div className="pt-2">
+                        <div className="border-t-2 border-gray-100 pt-2">
                           <dt className="text-sm font-medium text-gray-500">
                             Breed
                           </dt>
@@ -285,13 +317,29 @@ export default function Catalogue() {
                       <dl className="grid grid-cols-2 gap-x-4 gap-y-4">
                         <div className="pt-2">
                           <dt className="text-sm font-medium text-gray-500">
+                            Availability
+                          </dt>
+                          <dd className="text-base font-bold tracking-tight text-gray-900">
+                            {goat.availability}
+                          </dd>
+                        </div>
+                        <div className="pt-2">
+                          <dt className="text-sm font-medium text-gray-500">
+                            Code
+                          </dt>
+                          <dd className="text-base font-bold tracking-tight text-gray-900">
+                            {goat.code}
+                          </dd>
+                        </div>
+                        <div className="border-t-2 border-gray-100 pt-2">
+                          <dt className="text-sm font-medium text-gray-500">
                             Category
                           </dt>
                           <dd className="text-base font-bold tracking-tight text-gray-900">
                             {goat.category}
                           </dd>
                         </div>
-                        <div className="pt-2">
+                        <div className="border-t-2 border-gray-100 pt-2">
                           <dt className="text-sm font-medium text-gray-500">
                             Breed
                           </dt>
