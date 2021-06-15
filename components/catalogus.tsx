@@ -195,9 +195,9 @@ export default function Catalogue() {
             </h2>
             <p className="text-xl text-gray-500">
               All our animals are <span className="text-green-600 text font-extrabold"> vaccinated</span>,
-               <span className="text-green-600 text font-extrabold"> dewormed </span> and are raised on <span className="text-green-600 text font-extrabold"> organic food </span> from our own farms to sure they are healthy and the meat is not harmfull.
+               <span className="text-green-600 text font-extrabold"> dewormed </span> and are raised on <span className="text-green-600 text font-extrabold"> organic food </span> from our own farms to make sure they are healthy and the meat is not harmfull.
                You would'nt get that gaurantee from mandi would you ?
-              And not only that, we also take complete responsibility to make sure that all our animals fulfill the requirements for Qurbani.
+              And not only that, we also take complete responsibility that our animals fulfill the requirements for Qurbani.
             </p>
           </div>
           <div className="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
