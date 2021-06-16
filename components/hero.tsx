@@ -47,6 +47,7 @@ export default function Hero() {
         </svg>
       </div>
 
+      
       <div className="relative pt-6 pb-16 sm:pb-24 lg:pb-32">
         <nav
           className="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6"

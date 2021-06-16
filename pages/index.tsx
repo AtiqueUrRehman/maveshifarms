@@ -6,7 +6,7 @@ export default function Home() {
     <div>
       <div className="relative bg-white overflow-hidden">
         <Hero />
-	<Catalogue />
+	      <Catalogue />
       </div>
     </div>
   );

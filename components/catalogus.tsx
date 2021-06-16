@@ -1,6 +1,7 @@
 const bulls = [
   {
     code: "B01",
+    show_price : "false",
     availability: "In stock",
     breed: "Dhanni",
     category: "Bull",
@@ -13,6 +14,7 @@ const bulls = [
   },
   {
     code: "B02",
+    show_price : "false",
     availability: "In stock",
     breed: "Dhanni",
     category: "Bull",
@@ -25,6 +27,7 @@ const bulls = [
   },
   {
     code: "B03",
+    show_price : "true",
     availability: "In stock",
     breed: "Desi",
     category: "Bull",
@@ -37,6 +40,7 @@ const bulls = [
   },
   {
     code: "B04",
+    show_price : "true",
     availability: "In stock",
     breed: "Desi cross",
     category: "Bull",
@@ -49,6 +53,7 @@ const bulls = [
   },
   {
     code: "B05",
+    show_price : "true",
     availability: "In stock",
     breed: "Sahiwal",
     category: "Bull",
@@ -61,6 +66,7 @@ const bulls = [
   },
   {
     code: "B06",
+    show_price : "true",
     availability: "In stock",
     breed: "Sahiwal",
     category: "Bull",
@@ -73,6 +79,7 @@ const bulls = [
   },
   {
     code: "B07",
+    show_price : "true",
     availability: "In stock",
     breed: "Sahiwal",
     category: "Bull",
@@ -85,6 +92,7 @@ const bulls = [
   },
   {
     code: "B08",
+    show_price : "true",
     availability: "In stock",
     breed: "Sahiwal",
     category: "Bull",
@@ -93,13 +101,14 @@ const bulls = [
     addOns: "Delivery, Shelter",
     price: 140000,
     currentWeight: 200,
-    expectedWeight: 230,
+    expectedWeight: 290,
   },
 ];
 
 const goats = [
   {
     code: "G01",
+    show_price : "true",
     availability: "In stock",
     breed: "Rajanpuri",
     category: "Goat",
@@ -112,7 +121,8 @@ const goats = [
   },
   {
     code: "G02",
-    availability: "In stock",
+    show_price : "true",
+    availability: "Sold",
     breed: "Rajanpuri",
     category: "Goat",
     imageUrl: "/assets/img/catalogue/goats/102.jpg",
@@ -124,6 +134,7 @@ const goats = [
   },
   {
     code: "G03",
+    show_price : "true",
     availability: "In stock",
     breed: "Desi",
     category: "Goat",
@@ -136,6 +147,7 @@ const goats = [
   },
   {
     code: "G04",
+    show_price : "true",
     availability: "In stock",
     breed: "Makhi Cheena",
     category: "Goat",
@@ -148,6 +160,7 @@ const goats = [
   },
   {
     code: "G05",
+    show_price : "true",
     availability: "In stock",
     breed: "Makhi Cheena",
     category: "Goat",
@@ -160,6 +173,7 @@ const goats = [
   },
   {
     code: "G06",
+    show_price : "true",
     availability: "In stock",
     breed: "Makhi Cheena",
     category: "Goat",
@@ -172,13 +186,14 @@ const goats = [
   },
   {
     code: "G07",
+    show_price : "true",
     availability: "Sold",
     breed: "Talagang",
     category: "Ram (Chakki Dumba)",
     imageUrl: "/assets/img/catalogue/goats/107.jpg",
     color: "White",
     addOns: "Delivery, Shelter",
-    price: 65000,
+    price: 57000,
     currentWeight: 77,
     expectedWeight: 82,
   }
@@ -273,11 +288,24 @@ export default function Catalogue() {
                           <dt className="text-sm font-medium text-gray-500">
                             Price
                           </dt>
-                          <dd className="text-base font-bold tracking-tight text-red-700">
-                            {/* {bull.price} PKR */}
-                            <a className="hover:underline" target="_blank" href={`https://api.whatsapp.com/send?phone=+923130794980&text=Hi, may I know the price of ${bull.category} : ${bull.code}`}>
-                              Tap to inquire
-                            </a>
+                          <dd className="text-base font-bold tracking-tight">
+                          {
+                            bull.show_price == "true" &&                              
+                             <span className="">
+                               {bull.price} PKR <br></br>
+
+                                {bull.availability != "Sold" &&  
+                                  <a className="hover:underline text-blue-700" target="_blank" href={`https://api.whatsapp.com/send?phone=+923130794980&text=Hi, I would link to know more about ${bull.category} : ${bull.code}`}>
+                                  Tap to more info
+                                  </a>
+                                }
+                              </span>
+                            }
+                            {bull.show_price == "false" &&
+                              <a className="hover:underline" target="_blank" href={`https://api.whatsapp.com/send?phone=+923130794980&text=Hi, may I know the price of ${bull.category} : ${bull.code}`}>
+                              <span className="text-red-700">Tap to inquire</span>
+                              </a>
+                            }  
                           </dd>
                         </div>
                         <div className="border-t-2 border-gray-100 pt-2">
@@ -367,11 +395,24 @@ export default function Catalogue() {
                           <dt className="text-sm font-medium text-gray-500">
                             Price
                           </dt>
-                          <dd className="text-base font-bold tracking-tight text-red-700">
-                            {/* {goat.price} PKR */}
-                            <a className="hover:underline" target="_blank" href={`https://api.whatsapp.com/send?phone=+923130794980&text=Hi, may I know the price of ${goat.category} : ${goat.code}`}>
-                              Tap to inquire
-                            </a>
+                          <dd className="text-base font-bold tracking-tight">
+                            {
+                            goat.show_price == "true" &&                              
+                             <span className="">
+                               {goat.price} PKR <br></br>
+
+                                {goat.availability != "Sold" &&  
+                                  <a className="hover:underline text-blue-700" target="_blank" href={`https://api.whatsapp.com/send?phone=+923130794980&text=Hi, I would link to know more about ${goat.category} : ${goat.code}`}>
+                                  Tap to more info
+                                  </a>
+                                }
+                              </span>
+                            }
+                            {goat.show_price == "false" &&
+                              <a className="hover:underline" target="_blank" href={`https://api.whatsapp.com/send?phone=+923130794980&text=Hi, may I know the price of ${goat.category} : ${goat.code}`}>
+                              <span className="text-red-700">Tap to inquire</span>
+                              </a>
+                            }  
                           </dd>
                         </div>
                         <div className="border-t-2 border-gray-100 pt-2">
