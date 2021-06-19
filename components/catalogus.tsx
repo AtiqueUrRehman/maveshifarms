@@ -27,7 +27,7 @@ const bulls = [
   },
   {
     code: "B03",
-    show_price : "true",
+    show_price : "false",
     availability: "In stock",
     breed: "Desi",
     category: "Bull",
@@ -40,7 +40,7 @@ const bulls = [
   },
   {
     code: "B04",
-    show_price : "true",
+    show_price : "false",
     availability: "In stock",
     breed: "Desi cross",
     category: "Bull",
@@ -53,7 +53,7 @@ const bulls = [
   },
   {
     code: "B05",
-    show_price : "true",
+    show_price : "false",
     availability: "In stock",
     breed: "Sahiwal",
     category: "Bull",
@@ -66,7 +66,7 @@ const bulls = [
   },
   {
     code: "B06",
-    show_price : "true",
+    show_price : "false",
     availability: "In stock",
     breed: "Sahiwal",
     category: "Bull",
@@ -79,7 +79,7 @@ const bulls = [
   },
   {
     code: "B07",
-    show_price : "true",
+    show_price : "false",
     availability: "In stock",
     breed: "Sahiwal",
     category: "Bull",
@@ -92,7 +92,7 @@ const bulls = [
   },
   {
     code: "B08",
-    show_price : "true",
+    show_price : "false",
     availability: "In stock",
     breed: "Sahiwal",
     category: "Bull",
@@ -108,7 +108,7 @@ const bulls = [
 const goats = [
   {
     code: "G01",
-    show_price : "true",
+    show_price : "false",
     availability: "In stock",
     breed: "Rajanpuri",
     category: "Goat",
@@ -134,7 +134,7 @@ const goats = [
   },
   {
     code: "G03",
-    show_price : "true",
+    show_price : "false",
     availability: "In stock",
     breed: "Desi",
     category: "Goat",
@@ -147,7 +147,7 @@ const goats = [
   },
   {
     code: "G04",
-    show_price : "true",
+    show_price : "false",
     availability: "In stock",
     breed: "Makhi Cheena",
     category: "Goat",
@@ -160,7 +160,7 @@ const goats = [
   },
   {
     code: "G05",
-    show_price : "true",
+    show_price : "false",
     availability: "In stock",
     breed: "Makhi Cheena",
     category: "Goat",
@@ -173,7 +173,7 @@ const goats = [
   },
   {
     code: "G06",
-    show_price : "true",
+    show_price : "false",
     availability: "In stock",
     breed: "Makhi Cheena",
     category: "Goat",
