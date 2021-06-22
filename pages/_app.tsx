@@ -14,6 +14,7 @@ const Application: NextPage<AppProps<{}>> = ({ Component, pageProps }) => {
           name="viewport"
           content="initial-scale=1, maximum-scale=1, minimum-scale=1, viewport-fit=cover"
         />
+        
       </Head>
       <Component {...pageProps} />
     </>
