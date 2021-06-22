@@ -27,8 +27,8 @@ const bulls = [
   },
   {
     code: "B03",
-    show_price : "false",
-    availability: "In stock",
+    show_price : "true",
+    availability: "Sold",
     breed: "Desi",
     category: "Bull",
     imageUrl: "/assets/img/catalogue/bull/03.jpg",
