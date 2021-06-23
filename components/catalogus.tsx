@@ -1,8 +1,8 @@
 const bulls = [
   {
     code: "B01",
-    show_price : "false",
-    availability: "In stock",
+    show_price : "true",
+    availability: "Sold",
     breed: "Dhanni",
     category: "Bull",
     imageUrl: "/assets/img/catalogue/bull/01.jpg",
