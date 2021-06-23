@@ -1,8 +1,8 @@
 const bulls = [
   {
     code: "B01",
-    show_price : "true",
-    availability: "Sold",
+    show_price : "false",
+    availability: "In stock",
     breed: "Dhanni",
     category: "Bull",
     imageUrl: "/assets/img/catalogue/bull/01.jpg",
@@ -108,8 +108,8 @@ const bulls = [
 const goats = [
   {
     code: "G01",
-    show_price : "false",
-    availability: "In stock",
+    show_price : "true",
+    availability: "Sold",
     breed: "Rajanpuri",
     category: "Goat",
     imageUrl: "/assets/img/catalogue/goats/101.jpg",
