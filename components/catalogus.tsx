@@ -1,27 +1,27 @@
 const bulls = [
   {
     code: "B01",
-    show_price : "false",
+    show_price : "true",
     availability: "In stock",
     breed: "Dhanni",
     category: "Bull",
     imageUrl: "/assets/img/catalogue/bull/01.jpg",
     color: "White",
     addOns: "Delivery, Butcher, Shelter",
-    price: 275000,
+    price: 249000,
     currentWeight: 320,
     expectedWeight: 340,
   },
   {
     code: "B02",
-    show_price : "false",
+    show_price : "true",
     availability: "In stock",
     breed: "Dhanni",
     category: "Bull",
     imageUrl: "/assets/img/catalogue/bull/02.jpg",
     color: "White",
     addOns: "Delivery, Butcher, Shelter",
-    price: 235000,
+    price: 229000,
     currentWeight: 300,
     expectedWeight: 320,
   },
@@ -107,6 +107,45 @@ const bulls = [
 
 const goats = [
   {
+    code: "G04",
+    show_price : "true",
+    availability: "In stock",
+    breed: "Makhi Cheena",
+    category: "Goat",
+    imageUrl: "/assets/img/catalogue/goats/104.jpg",
+    color: "White cheena",
+    addOns: "Delivery, Shelter",
+    price: 66000,
+    currentWeight: 63,
+    expectedWeight: 67,
+  },
+  {
+    code: "G06",
+    show_price : "true",
+    availability: "In stock",
+    breed: "Makhi Cheena",
+    category: "Goat",
+    imageUrl: "/assets/img/catalogue/goats/106.jpg",
+    color: "Brown Cheena",
+    addOns: "Delivery, Shelter",
+    price: 66000,
+    currentWeight: 62,
+    expectedWeight: 67,
+  },
+  {
+    code: "G05",
+    show_price : "true",
+    availability: "Sold",
+    breed: "Makhi Cheena",
+    category: "Goat",
+    imageUrl: "/assets/img/catalogue/goats/105.jpg",
+    color: "Brown cheena",
+    addOns: "Delivery, Shelter",
+    price: 69000,
+    currentWeight: 67,
+    expectedWeight: 73,
+  },
+  {
     code: "G01",
     show_price : "true",
     availability: "Sold",
@@ -144,45 +183,6 @@ const goats = [
     price: 33000,
     currentWeight: 32,
     expectedWeight: 35,
-  },
-  {
-    code: "G04",
-    show_price : "true",
-    availability: "In stock",
-    breed: "Makhi Cheena",
-    category: "Goat",
-    imageUrl: "/assets/img/catalogue/goats/104.jpg",
-    color: "White cheena",
-    addOns: "Delivery, Shelter",
-    price: 68000,
-    currentWeight: 63,
-    expectedWeight: 67,
-  },
-  {
-    code: "G05",
-    show_price : "true",
-    availability: "Sold",
-    breed: "Makhi Cheena",
-    category: "Goat",
-    imageUrl: "/assets/img/catalogue/goats/105.jpg",
-    color: "Brown cheena",
-    addOns: "Delivery, Shelter",
-    price: 69000,
-    currentWeight: 67,
-    expectedWeight: 73,
-  },
-  {
-    code: "G06",
-    show_price : "true",
-    availability: "In stock",
-    breed: "Makhi Cheena",
-    category: "Goat",
-    imageUrl: "/assets/img/catalogue/goats/106.jpg",
-    color: "Brown Cheena",
-    addOns: "Delivery, Shelter",
-    price: 68000,
-    currentWeight: 62,
-    expectedWeight: 67,
   },
   {
     code: "G07",
@@ -406,6 +406,8 @@ export default function Catalogue() {
             <h3 className="text-3xl font-extrabold tracking-tight sm:text-3xl">
               Goats
             </h3>
+            <p className="text-xl font-medium text-gray-900">What you are looking for is already sold? <a className="underline text-red-500" target="_blank" href={`https://api.whatsapp.com/send?phone=+923130794980&text=Hi, I have a custom request`}> Tap here</a> to request and we will arrange one for you!
+            </p>
             <ul className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8">
             {goats.map((goat) => (
               <li key={goat.imageUrl}>
@@ -508,7 +510,9 @@ export default function Catalogue() {
               </li>
             ))}
           </ul>
-
+          <hr></hr>
+          <p className=" text-xl font-medium text-gray-900">What you are looking for is already sold? <a className="underline text-red-500" target="_blank" href={`https://api.whatsapp.com/send?phone=+923130794980&text=Hi, I have a custom request`}> Tap here</a> to request and we will arrange one for you!
+            </p>
           </div>
         </div>
       </div>
