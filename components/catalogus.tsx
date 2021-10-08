@@ -28,7 +28,7 @@ const bulls = [
   {
     code: "B04",
     show_price : "true",
-    availability: "In stock",
+    availability: "Sold",
     breed: "Desi cross",
     category: "Bull",
     imageUrl: "/assets/img/catalogue/bull/04.jpg",
@@ -41,7 +41,7 @@ const bulls = [
   {
     code: "B05",
     show_price : "true",
-    availability: "In stock",
+    availability: "Sold",
     breed: "Sahiwal",
     category: "Bull",
     imageUrl: "/assets/img/catalogue/bull/05.jpg",
@@ -54,7 +54,7 @@ const bulls = [
   {
     code: "B06",
     show_price : "true",
-    availability: "In stock",
+    availability: "Sold",
     breed: "Sahiwal",
     category: "Bull",
     imageUrl: "/assets/img/catalogue/bull/06.jpg",
@@ -67,7 +67,7 @@ const bulls = [
   {
     code: "B07",
     show_price : "true",
-    availability: "In stock",
+    availability: "Sold",
     breed: "Sahiwal",
     category: "Bull",
     imageUrl: "/assets/img/catalogue/bull/07.jpg",
@@ -80,7 +80,7 @@ const bulls = [
   {
     code: "B08",
     show_price : "true",
-    availability: "In stock",
+    availability: "Sold",
     breed: "Sahiwal",
     category: "Bull",
     imageUrl: "/assets/img/catalogue/bull/08.jpg",
@@ -96,7 +96,7 @@ const goats = [
   {
     code: "G04",
     show_price : "true",
-    availability: "In stock",
+    availability: "Sold",
     breed: "Makhi Cheena",
     category: "Goat",
     imageUrl: "/assets/img/catalogue/goats/104.jpg",
@@ -213,7 +213,7 @@ const goats = [
   {
     code: "G11",
     show_price : "true",
-    availability: "In stock",
+    availability: "Sold",
     breed: "Makhi Cheena",
     category: "Goat",
     imageUrl: "/assets/img/catalogue/goats/111.jpg",
@@ -226,7 +226,7 @@ const goats = [
   {
     code: "G12",
     show_price : "true",
-    availability: "In stock",
+    availability: "Sold",
     breed: "Makhi Cheena",
     category: "Goat",
     imageUrl: "/assets/img/catalogue/goats/112.jpg",
@@ -239,7 +239,7 @@ const goats = [
   {
     code: "G13",
     show_price : "true",
-    availability: "In stock",
+    availability: "Sold",
     breed: "Desi",
     category: "Goat",
     imageUrl: "/assets/img/catalogue/goats/113.jpg",
