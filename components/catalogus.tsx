@@ -258,7 +258,7 @@ export default function Catalogue() {
         <div className="space-y-12">
           <div className="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
             <h2 className="text-4xl font-extrabold tracking-tight sm:text-4xl">
-              Catalogue - 2021
+              Catalogue
             </h2>
             <p className="text-xl text-gray-500">
               All our animals are <span className="text-green-600 text font-extrabold"> vaccinated</span>,
@@ -266,6 +266,19 @@ export default function Catalogue() {
                You would'nt get that gaurantee from mandi would you ?
               And not only that, we also take complete responsibility that our animals fulfill the requirements for Qurbani.
             </p>
+          </div>
+          <div className="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
+            <h2 className="text-4xl font-extrabold tracking-tight sm:text-4xl">
+              2022
+            </h2>
+            <p className="text-xl text-gray-500">
+              Stay tuned, we will be updating the stock soon!
+            </p>
+          </div>
+          <div className="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
+            <h2 className="text-4xl font-extrabold tracking-tight sm:text-4xl">
+              2021
+            </h2>
           </div>
           <div className="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
             <h3 className="text-3xl font-extrabold tracking-tight sm:text-3xl">
