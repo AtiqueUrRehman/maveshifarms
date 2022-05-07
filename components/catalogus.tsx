@@ -251,6 +251,139 @@ const goats = [
   },
 ];
 
+const goats22 = [
+  {
+    code: "G14",
+    show_price : "false",
+    availability: "Available",
+    breed: "Makhi Cheena",
+    category: "Goat",
+    imageUrl: "/assets/img/catalogue/goats/114.jpg",
+    color: "Brown Cheena",
+    addOns: "Keeping Till Eid",
+    price: 150000,
+    currentWeight: 85,
+    expectedWeight: 95,
+  },
+  {
+    code: "G15",
+    show_price : "false",
+    availability: "Available",
+    breed: "Makhi Cheena",
+    category: "Goat",
+    imageUrl: "/assets/img/catalogue/goats/115.jpg",
+    color: "White Cheena",
+    addOns: "Keeping Till Eid",
+    price: 135000,
+    currentWeight: 75,
+    expectedWeight: 80,
+  },
+  {
+    code: "G18",
+    show_price : "false",
+    availability: "Available",
+    breed: "Rajanpuri",
+    category: "Goat",
+    imageUrl: "/assets/img/catalogue/goats/118.jpg",
+    color: "White",
+    addOns: "Keeping Till Eid",
+    price: 135000,
+    currentWeight: 75,
+    expectedWeight: 80,
+  },
+  {
+    code: "G21",
+    show_price : "false",
+    availability: "Available",
+    breed: "Mkhi Cheena",
+    category: "Goat",
+    imageUrl: "/assets/img/catalogue/goats/121.jpg",
+    color: "White Cheena",
+    addOns: "Keeping Till Eid",
+    price: 135000,
+    currentWeight: 75,
+    expectedWeight: 80,
+  },
+  {
+    code: "G22",
+    show_price : "false",
+    availability: "Available",
+    breed: "Mkhi Cheena",
+    category: "Goat",
+    imageUrl: "/assets/img/catalogue/goats/122.jpg",
+    color: "White Cheena",
+    addOns: "Keeping Till Eid",
+    price: 135000,
+    currentWeight: 75,
+    expectedWeight: 80,
+  },
+  {
+    code: "G23",
+    show_price : "false",
+    availability: "Available",
+    breed: "Mkhi Cheena",
+    category: "Goat",
+    imageUrl: "/assets/img/catalogue/goats/123.jpg",
+    color: "White Cheena",
+    addOns: "Keeping Till Eid",
+    price: 135000,
+    currentWeight: 75,
+    expectedWeight: 80,
+  },
+  {
+    code: "G16",
+    show_price : "false",
+    availability: "Available",
+    breed: "Makhi Cheena",
+    category: "Goat",
+    imageUrl: "/assets/img/catalogue/goats/116.jpg",
+    color: "White Cheena",
+    addOns: "Keeping Till Eid",
+    price: 120000,
+    currentWeight: 65,
+    expectedWeight: 70,
+  },
+  {
+    code: "G19",
+    show_price : "false",
+    availability: "Available",
+    breed: "Mkhi Cheena",
+    category: "Goat",
+    imageUrl: "/assets/img/catalogue/goats/119.jpg",
+    color: "White Cheena",
+    addOns: "Keeping Till Eid",
+    price: 120000,
+    currentWeight: 65,
+    expectedWeight: 70,
+  },
+  {
+    code: "G20",
+    show_price : "false",
+    availability: "Available",
+    breed: "Mkhi Cheena",
+    category: "Goat",
+    imageUrl: "/assets/img/catalogue/goats/120.jpg",
+    color: "White Cheena",
+    addOns: "Keeping Till Eid",
+    price: 120000,
+    currentWeight: 65,
+    expectedWeight: 70,
+  },
+  {
+    code: "G17",
+    show_price : "false",
+    availability: "Available",
+    breed: "Desi",
+    category: "Goat",
+    imageUrl: "/assets/img/catalogue/goats/117.jpg",
+    color: "Brown",
+    addOns: "Keeping Till Eid",
+    price: 1100000,
+    currentWeight: 60,
+    expectedWeight: 65,
+  },
+];
+
 export default function Catalogue() {
   return (
     <div className="bg-white z-0 relative">
@@ -271,9 +404,100 @@ export default function Catalogue() {
             <h2 className="text-4xl font-extrabold tracking-tight sm:text-4xl">
               2022
             </h2>
-            <p className="text-xl text-gray-500">
-              Stay tuned, we will be updating the stock soon!
-            </p>
+            <ul className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8">
+            {goats22.map((goat) => (
+              <li key={goat.imageUrl}>
+                <div className="space-y-4">
+                  <div className="aspect-w-3 aspect-h-2">
+                    <img
+                      className="object-cover shadow-lg rounded-lg"
+                      src={goat.imageUrl}
+                      alt=""
+                    />
+                  </div>
+
+                  <div className="space-y-1">
+                    <div className="mt-0">
+                      <dl className="grid grid-cols-2 gap-x-4 gap-y-4">
+                        <div className="pt-2">
+                          <dt className="text-sm font-medium text-gray-500">
+                            Availability
+                          </dt>
+                          <dd className="text-base font-bold tracking-tight text-gray-900">
+                            {goat.availability}
+                          </dd>
+                        </div>
+                        <div className="pt-2">
+                          <dt className="text-sm font-medium text-gray-500">
+                            Code
+                          </dt>
+                          <dd className="text-base font-bold tracking-tight text-gray-900">
+                            {goat.code}
+                          </dd>
+                        </div>
+                        <div className="border-t-2 border-gray-100 pt-2">
+                          <dt className="text-sm font-medium text-gray-500">
+                            Breed
+                          </dt>
+                          <dd className="text-base font-bold tracking-tight text-gray-900">
+                            {goat.breed}
+                          </dd>
+                        </div>
+                        <div className="border-t-2 border-gray-100 pt-2">
+                          <dt className="text-sm font-medium text-gray-500">
+                            Weight (Current)
+                          </dt>
+                          <dd className="text-base font-bold tracking-tight text-gray-900">
+                            {goat.currentWeight} Kg
+                          </dd>
+                        </div>
+                        <div className="border-t-2 border-gray-100 pt-2">
+                          <dt className="text-sm font-medium text-gray-500">
+                            Weight Expected (On Eid)
+                          </dt>
+                          <dd className="text-base font-bold tracking-tight text-gray-900">
+                            {goat.expectedWeight} Kg
+                          </dd>
+                        </div>
+                        <div className="border-t-2 border-gray-100 pt-2">
+                          <dt className="text-sm font-medium text-gray-500">
+                            Add Ons
+                          </dt>
+                          <dd className="text-base font-bold tracking-tight text-gray-900">
+                            {goat.addOns || "-"}
+                          </dd>
+                        </div>
+                        <div className="border-t-2 border-gray-100 pt-2">
+                          <dt className="text-sm font-medium text-gray-500">
+                            Price
+                          </dt>
+                          <dd className="text-base font-bold tracking-tight">
+                            {
+                            goat.show_price == "true" &&                              
+                             <span className="">
+                               {goat.price} PKR <br></br>
+
+                                {goat.availability != "Sold" &&  
+                                  <a className="hover:underline text-blue-700" target="_blank" href={`https://api.whatsapp.com/send?phone=+923130794980&text=Hi, I would link to know more about ${goat.category} : ${goat.code}`}>
+                                  Tap to more info
+                                  </a>
+                                }
+                              </span>
+                            }
+                            {goat.show_price == "false" &&
+                              <a className="hover:underline" target="_blank" href={`https://api.whatsapp.com/send?phone=+923130794980&text=Hi, may I know the price of ${goat.category} : ${goat.code}`}>
+                              <span className="text-red-700">Click for WhatsApp</span>
+                              </a>
+                            }  
+                          </dd>
+                        </div>
+                      </dl>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            ))}
+          </ul>
           </div>
           <div className="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
             <h2 className="text-4xl font-extrabold tracking-tight sm:text-4xl">
@@ -347,30 +571,6 @@ export default function Catalogue() {
                           </dt>
                           <dd className="text-base font-bold tracking-tight text-gray-900">
                             {bull.expectedWeight} Kg
-                          </dd>
-                        </div>
-                        <div className="border-t-2 border-gray-100 pt-2">
-                          <dt className="text-sm font-medium text-gray-500">
-                            Price
-                          </dt>
-                          <dd className="text-base font-bold tracking-tight">
-                          {
-                            bull.show_price == "true" &&                              
-                             <span className="">
-                               {bull.price} PKR <br></br>
-
-                                {bull.availability != "Sold" &&  
-                                  <a className="hover:underline text-blue-700" target="_blank" href={`https://api.whatsapp.com/send?phone=+923130794980&text=Hi, I would link to know more about ${bull.category} : ${bull.code}`}>
-                                  Tap to more info
-                                  </a>
-                                }
-                              </span>
-                            }
-                            {bull.show_price == "false" &&
-                              <a className="hover:underline" target="_blank" href={`https://api.whatsapp.com/send?phone=+923130794980&text=Hi, may I know the price of ${bull.category} : ${bull.code}`}>
-                              <span className="text-red-700">Tap to inquire</span>
-                              </a>
-                            }  
                           </dd>
                         </div>
                         <div className="border-t-2 border-gray-100 pt-2">
@@ -456,30 +656,6 @@ export default function Catalogue() {
                           </dt>
                           <dd className="text-base font-bold tracking-tight text-gray-900">
                             {goat.expectedWeight} Kg
-                          </dd>
-                        </div>
-                        <div className="border-t-2 border-gray-100 pt-2">
-                          <dt className="text-sm font-medium text-gray-500">
-                            Price
-                          </dt>
-                          <dd className="text-base font-bold tracking-tight">
-                            {
-                            goat.show_price == "true" &&                              
-                             <span className="">
-                               {goat.price} PKR <br></br>
-
-                                {goat.availability != "Sold" &&  
-                                  <a className="hover:underline text-blue-700" target="_blank" href={`https://api.whatsapp.com/send?phone=+923130794980&text=Hi, I would link to know more about ${goat.category} : ${goat.code}`}>
-                                  Tap to more info
-                                  </a>
-                                }
-                              </span>
-                            }
-                            {goat.show_price == "false" &&
-                              <a className="hover:underline" target="_blank" href={`https://api.whatsapp.com/send?phone=+923130794980&text=Hi, may I know the price of ${goat.category} : ${goat.code}`}>
-                              <span className="text-red-700">Tap to inquire</span>
-                              </a>
-                            }  
                           </dd>
                         </div>
                         <div className="border-t-2 border-gray-100 pt-2">
