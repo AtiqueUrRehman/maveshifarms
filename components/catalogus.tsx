@@ -254,7 +254,7 @@ const goats = [
 const goats22 = [
   {
     code: "G14",
-    show_price : "false",
+    show_price : "true",
     availability: "Available",
     breed: "Makhi Cheena",
     category: "Goat",
@@ -262,12 +262,12 @@ const goats22 = [
     color: "Brown Cheena",
     addOns: "Keeping Till Eid",
     price: 150000,
-    currentWeight: 85,
+    currentWeight: 90,
     expectedWeight: 95,
   },
   {
     code: "G15",
-    show_price : "false",
+    show_price : "true",
     availability: "Available",
     breed: "Makhi Cheena",
     category: "Goat",
@@ -280,7 +280,7 @@ const goats22 = [
   },
   {
     code: "G18",
-    show_price : "false",
+    show_price : "true",
     availability: "Available",
     breed: "Rajanpuri",
     category: "Goat",
@@ -293,7 +293,7 @@ const goats22 = [
   },
   {
     code: "G21",
-    show_price : "false",
+    show_price : "true",
     availability: "Available",
     breed: "Mkhi Cheena",
     category: "Goat",
@@ -306,7 +306,7 @@ const goats22 = [
   },
   {
     code: "G22",
-    show_price : "false",
+    show_price : "true",
     availability: "Available",
     breed: "Mkhi Cheena",
     category: "Goat",
@@ -319,7 +319,7 @@ const goats22 = [
   },
   {
     code: "G23",
-    show_price : "false",
+    show_price : "true",
     availability: "Available",
     breed: "Mkhi Cheena",
     category: "Goat",
@@ -332,7 +332,7 @@ const goats22 = [
   },
   {
     code: "G16",
-    show_price : "false",
+    show_price : "true",
     availability: "Available",
     breed: "Makhi Cheena",
     category: "Goat",
@@ -345,7 +345,7 @@ const goats22 = [
   },
   {
     code: "G19",
-    show_price : "false",
+    show_price : "true",
     availability: "Available",
     breed: "Mkhi Cheena",
     category: "Goat",
@@ -358,7 +358,7 @@ const goats22 = [
   },
   {
     code: "G20",
-    show_price : "false",
+    show_price : "true",
     availability: "Available",
     breed: "Mkhi Cheena",
     category: "Goat",
@@ -371,14 +371,14 @@ const goats22 = [
   },
   {
     code: "G17",
-    show_price : "false",
+    show_price : "true",
     availability: "Available",
     breed: "Desi",
     category: "Goat",
     imageUrl: "/assets/img/catalogue/goats/117.jpg",
     color: "Brown",
     addOns: "Keeping Till Eid",
-    price: 1100000,
+    price: 110000,
     currentWeight: 60,
     expectedWeight: 65,
   },
