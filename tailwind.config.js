@@ -1,8 +1,7 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
-const typography = require("@tailwindcss/typography");
 
 module.exports = {
-  purge: ["./{components,pages}/**/*.{js,ts,tsx}"],
+  content: ["./{components,pages}/**/*.{js,ts,tsx}"],
   darkMode: "class",
   theme: {
     extend: {
@@ -14,6 +13,5 @@ module.exports = {
   variants: {
     extend: {},
   },
-
-  plugins: [typography],
+  plugins: [],
 };
