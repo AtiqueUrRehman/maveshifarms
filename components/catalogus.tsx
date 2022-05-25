@@ -1,19 +1,7 @@
 import Image from "next/image";
 
 const bulls = [
-  {
-    code: "B01",
-    show_price: "true",
-    availability: "Sold",
-    breed: "Dhanni",
-    category: "Bull",
-    imageUrl: require("../public/assets/img/catalogue/bull/01.jpg"),
-    color: "White",
-    addOns: "Delivery, Butcher, Shelter",
-    price: 240000,
-    currentWeight: 320,
-    expectedWeight: 340,
-  },
+
   {
     code: "B03",
     show_price: "true",
@@ -256,7 +244,7 @@ const goats = [
 const goats22 = [
   {
     code: "G14",
-    show_price: "true",
+    show_price: "false",
     availability: "Available",
     breed: "Makhi Cheena",
     category: "Goat",
@@ -269,7 +257,7 @@ const goats22 = [
   },
   {
     code: "G15",
-    show_price: "true",
+    show_price: "false",
     availability: "Available",
     breed: "Makhi Cheena",
     category: "Goat",
@@ -282,7 +270,7 @@ const goats22 = [
   },
   {
     code: "G18",
-    show_price: "true",
+    show_price: "false",
     availability: "Available",
     breed: "Rajanpuri",
     category: "Goat",
@@ -295,7 +283,7 @@ const goats22 = [
   },
   {
     code: "G21",
-    show_price: "true",
+    show_price: "false",
     availability: "Available",
     breed: "Mkhi Cheena",
     category: "Goat",
@@ -308,7 +296,7 @@ const goats22 = [
   },
   {
     code: "G22",
-    show_price: "true",
+    show_price: "false",
     availability: "Available",
     breed: "Mkhi Cheena",
     category: "Goat",
@@ -321,7 +309,7 @@ const goats22 = [
   },
   {
     code: "G23",
-    show_price: "true",
+    show_price: "false",
     availability: "Available",
     breed: "Mkhi Cheena",
     category: "Goat",
@@ -334,7 +322,7 @@ const goats22 = [
   },
   {
     code: "G16",
-    show_price: "true",
+    show_price: "false",
     availability: "Available",
     breed: "Makhi Cheena",
     category: "Goat",
@@ -347,7 +335,7 @@ const goats22 = [
   },
   {
     code: "G19",
-    show_price: "true",
+    show_price: "false",
     availability: "Available",
     breed: "Mkhi Cheena",
     category: "Goat",
@@ -360,7 +348,7 @@ const goats22 = [
   },
   {
     code: "G20",
-    show_price: "true",
+    show_price: "false",
     availability: "Available",
     breed: "Mkhi Cheena",
     category: "Goat",
@@ -373,7 +361,7 @@ const goats22 = [
   },
   {
     code: "G17",
-    show_price: "true",
+    show_price: "false",
     availability: "Available",
     breed: "Desi",
     category: "Goat",
