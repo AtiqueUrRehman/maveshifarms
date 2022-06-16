@@ -6,7 +6,7 @@ import { useEffect } from "react";
 export default function Home() {
   useEffect(() => {
     if (process.env.NODE_ENV === "production") {
-      FullStory.init({orgId: process.env.NEXT_PUBLIC_FULLSTORY_ORG_ID});
+      FullStory.init({ orgId: process.env.NEXT_PUBLIC_FULLSTORY_ORG_ID! });
     }
   }, []);
 
