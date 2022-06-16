@@ -222,6 +222,11 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@fullstory/browser@^1.6.1":
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/@fullstory/browser/-/browser-1.6.1.tgz#dd3f2d3ce1dc72aa8e896f30cb5da83c72097816"
+  integrity sha512-WZ8mR5nluF7W8OhSe7J8FAyxDLOwDnI+0Jj8f+qBd5WsExwrtwb2LOO2064Gn+U3m2WI3tEo6WbHeMs6qtv0YA==
+
 "@headlessui/react@^1.4.0":
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/@headlessui/react/-/react-1.6.1.tgz#d822792e589aac005462491dd62f86095e0c3bef"
